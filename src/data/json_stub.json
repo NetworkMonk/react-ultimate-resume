@@ -1,24 +1,24 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "James Plant",
+        "label": "Developer",
+        "picture": "https://www.gravatar.com/avatar/bef24e2378863fef344b765ad68ef854?s=180",
+        "email": "jamesplant@gmail.com",
+        "phone": "07545 960 983",
+        "website": "https://jamesplant.me/",
+        "summary": "A little about me...",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "Flat 9 Oak House",
+            "postalCode": "RM7 7LN",
+            "city": "Romford",
+            "countryCode": "UK",
+            "region": "Essex"
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "network": "Instagram",
+                "username": "NetworkMonkey",
+                "url": "http://twitter.com/networkmonkey"
             }
         ]
     },

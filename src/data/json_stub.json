@@ -1,224 +1,348 @@
 {
     "basics": {
-        "name": "James Plant",
-        "label": "Developer",
-        "picture": "https://www.gravatar.com/avatar/bef24e2378863fef344b765ad68ef854?s=180",
-        "email": "jamesplant@gmail.com",
-        "phone": "07545 960 983",
-        "website": "https://jamesplant.me/",
-        "summary": "A little about me...",
-        "location": {
-            "address": "Flat 9 Oak House",
-            "postalCode": "RM7 7LN",
-            "city": "Romford",
-            "countryCode": "UK",
-            "region": "Essex"
-        },
-        "profiles": [
-            {
-                "network": "Instagram",
-                "username": "NetworkMonkey",
-                "url": "http://twitter.com/networkmonkey"
-            }
-        ]
+      "name": "James Plant",
+      "label": "Developer",
+      "picture": "https://www.gravatar.com/avatar/bef24e2378863fef344b765ad68ef854?s=180",
+      "email": "jamesplant@gmail.com",
+      "phone": "07545 960 983",
+      "website": "https://jamesplant.me/",
+      "summary": "A little about me...",
+      "location": {
+        "address": "Flat 9 Oak House",
+        "postalCode": "RM7 7LN",
+        "city": "Romford",
+        "countryCode": "UK",
+        "region": "Essex"
+      },
+      "profiles": [
+        {
+          "network": "Instagram",
+          "username": "NetworkMonkey",
+          "url": "http://twitter.com/networkmonkey"
+        }
+      ]
     },
     "work": [
-        {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        }
+      {
+        "name": "Central Computers",
+        "position": "Software Developer",
+        "website": "https://centralcomputersuk.com/",
+        "startDate": "2013-10-07",
+        "summary": "Responsible for development of Central Manager product, a customisation management solutions for customers to manage their business and resources in one product.\n\nAlso responsible for designing and deploying a hosted server infrastructure that manages all customers hosted exchange emails and remote solutions.",
+        "location": "Romford, UK",
+        "highlights": ["Started the company"],
+        "id": "77fc09b7-923e-42dc-b3bb-fec80203845d",
+        "place": { "name": "Romford, UK" },
+        "stillEmployed": true,
+        "index": 0
+      },
+      {
+        "name": "Connect Support Services",
+        "position": "2nd / 3rd Line Technical Support",
+        "website": "http://www.connect.co.uk/",
+        "startDate": "2012-09-10",
+        "endDate": "2013-10-04",
+        "summary": "Responsible for providing customer and infrastructure support to customers based around the UK and world. Where required to complete projects or provide support, visit customer sites to complete works.",
+        "location": "London, UK",
+        "highlights": ["Started the company"],
+        "id": "d93f4ee3-5bfc-4671-b05d-fdfdff89d199",
+        "place": { "name": "London, UK" },
+        "stillEmployed": false,
+        "index": 1
+      },
+      {
+        "name": "Computer Talk",
+        "position": "3rd Line Technical Support",
+        "website": "https://www.computertalk.co.uk/",
+        "startDate": "2004-01-01",
+        "endDate": "2012-09-07",
+        "summary": "Provide technical support to schools around the Redbridge and Havering areas mostly by visiting site. I was also responsible for completing new infrastructure setups for customers where required.",
+        "location": "Romford, UK",
+        "highlights": ["Started the company"],
+        "id": "90419141-21cf-4da5-948c-be12da0abde9",
+        "place": { "name": "Romford, UK" },
+        "stillEmployed": false,
+        "index": 2
+      }
     ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
+    "volunteer": [],
     "education": [
-        {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
+      {
+        "institution": "Havering College",
+        "area": "Computer Science",
+        "studyType": "BTEC National Diploma",
+        "startDate": "2001-01-01",
+        "endDate": "2003-01-01"
+      }
     ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
+    "awards": [],
+    "publications": [],
     "skills": [
-        {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
+      {
+        "name": "Javascript",
+        "level": "advanced",
+        "value": 80,
+        "keywords": ["HTML", "CSS", "Javascript"],
+        "index": 0,
+        "id": "7c0d62e9-4375-4cfb-82d0-59d611bf0b72"
+      },
+      {
+        "name": "React",
+        "level": "intermediate",
+        "value": 30,
+        "keywords": ["HTML", "CSS", "Javascript"],
+        "index": 1,
+        "id": "25838a4b-43b2-43b0-bd36-1eae11dac0e5"
+      },
+      {
+        "name": "Go",
+        "index": 2,
+        "value": 75,
+        "id": "18381a7b-061b-40c0-97cf-fb613318352e"
+      },
+      {
+        "name": "PHP",
+        "level": "advanced",
+        "value": 75,
+        "keywords": ["HTML", "PHP"],
+        "index": 3,
+        "id": "9071bbb1-ee13-44a2-8724-d4bf4d49a51f"
+      },
+      {
+        "name": "Docker",
+        "level": "intermediate",
+        "value": 50,
+        "keywords": ["Docker"],
+        "index": 4,
+        "id": "1471df31-e626-4d6d-a03d-9076c78cc8cb"
+      },
+      {
+        "name": "C#",
+        "index": 5,
+        "value": 40,
+        "id": "71b7bd11-454d-45d6-9bdb-4359d097ac72"
+      },
+      {
+        "name": "Git",
+        "index": 6,
+        "value": 85,
+        "id": "051c33d6-300b-4a07-80f9-23cccadb2345"
+      },
+      {
+        "name": "Gulp",
+        "index": 7,
+        "value": 75,
+        "id": "a5f17997-2b85-4d76-8b8d-474144abebe3"
+      },
+      {
+        "name": "Bootstrap",
+        "index": 8,
+        "value": 85,
+        "id": "ddfc804c-8923-48ce-8166-0f6b954cf5c7"
+      }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "languages": [
+      { "language": "English", "value": 100, "fluency": "Native speaker" }
+    ],
     "interests": [
-        {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-        {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
-        },
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-        }
+      {
+        "name": "Photography",
+        "gifUrl": "https://media.giphy.com/media/VJvjBi6SEaKhW/giphy.gif"
+      },
+      {
+        "name": "Movies",
+        "gifUrl": "https://media.giphy.com/media/8xomIW1DRelmo/giphy.gif"
+      },
+      {
+        "name": "Gaming",
+        "gifUrl": "https://media.giphy.com/media/BfS4DLftk3dsY/giphy.gif"
+      },
+      {
+        "name": "Cooking",
+        "gifUrl": "https://media.giphy.com/media/3oEjHC7al4GfnudR7y/giphy.gif"
+      },
+      {
+        "name": "Family",
+        "gifUrl": "https://media.giphy.com/media/PkcUAwVL9ZElU1yNhE/giphy.gif"
+      }
     ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "references": [],
     "projects": [
-        {
-            "name": "Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
-            "images": []
-        }
+      {
+        "name": "Central Manager",
+        "date": "2020-03-30T22:18:21.031Z",
+        "description": "Created a fully customisable management solution that customers can use to help manage their businesses.\n\nThe storage solution is built from the ground up, with encryption, data de-duplication and block level uploads. This proved to be a very effective way for customers to securely share data with third parties and manage their own file structure.\n\nCustomisable records were created that allow you to create a custom record type and to decide what information should be stored on this record. You can choose from a large number of data types. This is the real power of Central Manager, everything can be completely customised.",
+        "id": "87f634e3-d03b-483e-8500-f3f18ff10a4d",
+        "endDate": "2020-03-30"
+      },
+      {
+        "name": "Hosted Exchange Cluster",
+        "date": "2016-03-30T22:22:07.401Z",
+        "description": "While I'm no stranger to managing an on premise exchange server for customers, I was tasked with planning a deployment for a hosted exchange solution that can be used for all customers to share.\n\nWe created a Hosted Exchange 2016 cluster that remains in operation today, with almost no downtime, and hosts nearly 200 mailboxes for our customers.",
+        "id": "87a79386-f4bd-458b-995b-fc47fb41fb86",
+        "endDate": "2016-03-30"
+      }
     ],
     "specific": {
-        "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
-        },
-        "dreamJob": {
-            "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
-            ],
-            "remoteFrequency": "regularly"
-        },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
-        },
-        "education": { "studiesLevel": 5 },
-        "work": {
-            "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 9
-        },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
+      "basics": {
+        "visaSponsorship": false,
+        "personalDescription": "I'm an enthusiastic and eager developer that loves to explore new technologies. I'm also a photographer and a very proud father."
+      },
+      "dreamJob": {
+        "locations": [
+          { "name": "London, UK", "id": "2ae4592b-08fd-47fb-a86c-b7253bfb8fd6" },
+          { "name": "Essex, UK", "id": "70ff9843-1ee7-4711-93ad-6a7d52c10d59" },
+          { "name": "Romford, UK", "id": "9c0a5ffc-cfa3-4552-8153-a509bc2a3b39" },
+          {
+            "name": "Chelmsford, UK",
+            "id": "55749770-ac95-4b90-967f-f7e6ba69b8c9"
+          }
+        ],
+        "remoteFrequency": "regularly",
+        "perks": { "mood": true, "training": true, "responsabilities": true },
+        "salary": "50000"
+      },
+      "currentJob": {
+        "issues": {
+          "boring_management": true,
+          "boring_team": true,
+          "no_tech": true
+        }
+      },
+      "education": { "studiesLevel": 2 },
+      "work": {
+        "contractTypes": ["permanent"],
+        "codingYears": 10,
+        "codingReason": "I got into coding when I was young and was given an Amstrad! I still get the same enjoyment from coding and satisfaction for solving whatever challenge I come up against.",
+        "searchState": "openOpportunities",
+        "experienceYears": 6
+      },
+      "sound": {
+        "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWXpOtMyVOt4Q"
+      },
+      "interestedBy": "React, AWS, Serverless Deployments, AI"
+    },
+    "customization": {
+      "imageHeader": {
+        "url": "https://lh3.googleusercontent.com/xhlNG3ERqurIkYKDthlxmZjnWALXFELs4sdmJowqLd_DqZG1QJSfejaItc_dEABKSUPxjHjktW5EgLaktgKBRBXhtZ6X2xOV4tlhiXcOP7IIFfLZd9PNmLyX8mhkfUh77bS-pxGMiqA=w2400",
+        "alt": "Banner"
+      },
+      "theme": {
+        "palette": {
+          "primary": {
+            "50": "#ffecf0",
+            "100": "#ffd9e0",
+            "200": "#ffb4c1",
+            "300": "#fe8ea3",
+            "400": "#fe6984",
+            "500": "#fe4365",
+            "600": "#cb3651",
+            "700": "#98283d",
+            "800": "#661b28",
+            "900": "#330d14",
+            "contrastDefaultColor": "light"
+          },
+          "secondary": {
+            "50": "#fff5f5",
+            "100": "#feebeb",
+            "200": "#fed8d7",
+            "300": "#fdc4c2",
+            "400": "#fdb1ae",
+            "500": "#fc9d9a",
+            "600": "#ca7e7b",
+            "700": "#975e5c",
+            "800": "#653f3e",
+            "900": "#321f1f",
+            "contrastDefaultColor": "light"
+          },
+          "tertiary": {
+            "50": "#fefaf7",
+            "100": "#fef5ef",
+            "200": "#fdebde",
+            "300": "#fbe1ce",
+            "400": "#fad7bd",
+            "500": "#f9cdad",
+            "600": "#c7a48a",
+            "700": "#957b68",
+            "800": "#645245",
+            "900": "#322923",
+            "contrastDefaultColor": "light"
+          }
+        }
+      },
+      "cardsOrder": [
+        { "type": "basics", "variant": 4 },
+        { "type": "projects", "variant": 4 },
+        { "type": "skills", "variant": 0 },
+        { "type": "dreamjob", "variant": 4 },
+        { "type": "experiences", "variant": 4 },
+        { "type": "language", "variant": 4 },
+        { "type": "gifs", "variant": 0 },
+        { "type": "interestedBy", "variant": 3 },
+        { "type": "soundtrack", "variant": 4 },
+        { "type": "studies", "variant": 4 }
+      ]
     },
     "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
-        "cardsOrder": [
-            { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
-        ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
-            }
+      "imageHeader": {
+        "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+        "alt": "Default Banner"
+      },
+      "theme": {
+        "palette": {
+          "primary": {
+            "50": "#e6f0f3",
+            "100": "#cde2e8",
+            "200": "#9bc5d1",
+            "300": "#68a7b9",
+            "400": "#368aa2",
+            "500": "#046d8b",
+            "600": "#03576f",
+            "700": "#024153",
+            "800": "#022c38",
+            "900": "#01161c",
+            "contrastDefaultColor": "light"
+          },
+          "secondary": {
+            "50": "#eaf4f4",
+            "100": "#d6e9e9",
+            "200": "#acd3d3",
+            "300": "#83bebe",
+            "400": "#59a8a8",
+            "500": "#309292",
+            "600": "#267575",
+            "700": "#1d5858",
+            "800": "#133a3a",
+            "900": "#0a1d1d",
+            "contrastDefaultColor": "light"
+          },
+          "tertiary": {
+            "50": "#eaf8f7",
+            "100": "#d5f1ee",
+            "200": "#ace3de",
+            "300": "#82d4cd",
+            "400": "#59c6bd",
+            "500": "#2fb8ac",
+            "600": "#26938a",
+            "700": "#1c6e67",
+            "800": "#134a45",
+            "900": "#092522",
+            "contrastDefaultColor": "light"
+          }
         }
+      },
+      "cardsOrder": [
+        { "type": "basics", "variant": 4 },
+        { "type": "skills", "variant": 0 },
+        { "type": "dreamjob", "variant": 4 },
+        { "type": "projects", "variant": 4 },
+        { "type": "experiences", "variant": 4 },
+        { "type": "studies", "variant": 4 },
+        { "type": "gifs", "variant": 0 },
+        { "type": "interestedBy", "variant": 3 },
+        { "type": "language", "variant": 4 },
+        { "type": "soundtrack", "variant": 4 }
+      ]
     }
-}
+  }
+  
